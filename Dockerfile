@@ -11,7 +11,7 @@ RUN rm -f /usr/share/nginx/html/Dockerfile \
     && rm -f /usr/share/nginx/html/nginx.conf \
     && rm -rf /usr/share/nginx/html/.git
 
-# Expose port 80
-EXPOSE 80
+# Expose port 5000
+EXPOSE 5000
 
 CMD ["nginx", "-g", "daemon off;"]
